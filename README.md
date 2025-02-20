@@ -1,9 +1,9 @@
 # Genecraft-Dragons
-# A basic character creator of sorts I've adapted from my cousins project assignment.
-# Quote from my Dwarf Fortress comment:
+<h2="A basic character creator of sorts I've adapted from my cousins project assignment.></h2>
+Quote from my Dwarf Fortress comment:
 
-"""Reminds me of this monster character creation project my cousin made. You can add and "evolve" a dragons organs based on a list of traits linked to that main part; which would then could potentially correspond to any three physical and mental stats. Depending on the trait selected, eg. hydrodynamics. The creature gains major or minor advantages/drawbacks. You can compensate for said disavantages by developing it further; But as a consequence it adds to gestation time, which can last potentially centuries. Hence its a self checking system of sorts.
-I may plan to implement it in Dwarf Fortress or Godot, once we can get a working combat system.
+"""Reminds me of this monster character creation project my cousin made. You can add and "evolve" a dragons organs based on a list of traits linked to that main part; which would then could potentially correspond to any three physical and mental stats. Depending on the trait selected, eg. hydrodynamics, the creature gains major or minor advantages/drawbacks. You can compensate for said disavantages by developing it further, but as a consequence it lengthens gestation time. Said gestation time can last potentially centuries. Hence its a natural self checking system of sorts.
+I am planning to implement it to Dwarf Fortress or Godot, once we can get a working combat system.
 
 Spirit: Magic abilities, mainly used in the core. A dragons brain/essence and primary organ. As well as the mana reactor, for "breath attacks" possibly evolved to get the weight off more intensive casting with the core, to allow it to focus on thinking and processing.
 
@@ -18,7 +18,7 @@ Internals: Including general senses like touch and smell, but also things like b
 Physical traits are also locational, for some reason. You can currently have a typhically visual trait with some other body part. I suppose you could create burrowing, eyeless cave dragons
 if you wanted too.  
 """
-# Example of a frequent menu:
+<h2=" Example of a frequent menu:></h2>
 
 """Internals: 
 [def view_stats(thing):
