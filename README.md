@@ -19,14 +19,14 @@ Internals: Including general senses like touch and smell, but also things like b
 
 Physical traits are also locational, for some reason. You can currently have a typhically visual trait with some other body part. I suppose you could create burrowing, eyeless cave dragons if you wanted to.  
 """
-<h2>Example of a frequent menu in code:></h2>
+<h2>Example of a frequent menu in code:</h2>
 
 """Internals: 
 [def view_stats(thing):
     array = thing.get_total_stats()
-    print(" ╤⌬╧ ", array[0,0], "Body and", array[0,3], "Externals\n",
-          "╤⌬╧ ", array[0,1], "Mind and", array[0,4], "Spark\n",
-          "╤⌬╧ ", array[0,2], "Soul and", array[0,5], "Internals\n",
-          "╤⌬╧ ", array[0,6], "Gene complexity")
+    print(" ╤⌬╧ ", array[0,0], "Body and", array[0,3], "Externals\n",<br>
+          "╤⌬╧ ", array[0,1], "Mind and", array[0,4], "Spark\n",<br>
+          "╤⌬╧ ", array[0,2], "Soul and", array[0,5], "Internals\n",<br>
+          "╤⌬╧ ", array[0,6], "Gene complexity")<br>
 ]
 """
